@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+
+}
+.header-section{
+    display: flex;
+    
+    
+}
+.logo-section{
+    display: flex;
+    flex-direction: row;
+
+}
+.logo-h{
+    color: white;
+    font-size:16px;
+    column-gap: 20px;
+}
+.nav-items{
+    display: flex;
+    margin-left: 160px;
+    column-gap: 20px;
+    padding:20px;
+
+
+}
+.about{
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+
+}
+.Customers{
+    text-decoration: none;
+    color: white;
+}
+.Pricing{
+    text-decoration: none;
+    color: white;
+}
+.News-room{
+    text-decoration: none;
+    color: white;
+}
+.Changing{
+    text-decoration: none;
+    color: white;
+}
+.buttons{
+    display: flex;
+    margin-left: 200px;
+    column-gap: 20px;
+
+}
+.sign-in{
+  background-color: black;
+  border:0.5px solid white;
+  color:white;
+  height:30px;
+  width:100px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.sign-up{
+  background-color: white;
+  border:0.5px solid white;
+  color:black;
+  height:30px;
+  width:100px;
+  margin-top: 25px;
+  border-radius: 10px;
+
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.content-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+.content-heading{
+    color: red;
+    font-size: 16px;
+    padding-top: 90px;
+    margin-left: 30px;
+}
+.email-heading{
+    font-size: 70px;
+    color: white;
+    margin-left: 30px;
+}
+.des{
+    color:white;
+    font-size: 16px;
+    margin-left: 30px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.join{
+    background-color: transparent;
+    border: 1px solid silver;
+    color: white;
+    width: 120px;
+    border-radius: 20px;
+    margin-left: 30px;
+    
+    padding: 10px;
+}
+.image{
+    margin-top: 20px;
+    width: 600px;
+    background-size: cover;
+    padding: 30px;
+    filter:drop-shadow(3px)
+
+}

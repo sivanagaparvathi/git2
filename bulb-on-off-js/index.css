@@ -1,0 +1,9 @@
+.bulb-image{
+    height:80px;
+    width:100px;
+}
+.light-bulb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}   
+.logo{
+    width:50px;
+    height:50px;
+    border-radius: 30px;
+   
+}
+.nav-items{
+    display: flex;
+    padding-top: 30px;
+    column-gap: 20px;
+   
+}
+.home{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  
+}
+.About{
+    text-decoration: none;
+    color: black;
+}
+.Blog{
+    text-decoration: none;
+    color: black;
+}
+.card-container{
+    background-color: palevioletred;
+    
+    height:auto;
+    border: 1px solid blueviolet;
+}
+
+.sign-in-form{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+ }   
+name{
+    font-size: 18px;
+    color:black;
+}
+.button{
+    width:100px;
+    height:20px;
+    background-color: burlywood;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: black;
+}

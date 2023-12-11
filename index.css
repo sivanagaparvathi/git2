@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.primary-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+}
+.header{
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.logo{
+    width:140px;
+    height: 50px;
+    object-fit: contain;
+}
+.nav-tabs{
+    column-gap: 15px;
+    display: flex;
+    align-items: center;
+
+
+}
+.nav-tab{
+    text-decoration: none;
+    color: #807676;
+    padding: 10px;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nav-tab-active{
+    color: #D07D30;
+}
+.nav-tab-button{
+    border-radius: 20px;
+border: 1px solid #130707;
+
+background: #FFF;
+padding:20px;
+text-decoration: none;
+color: #63A465;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    
+}
+            
+.description-part{
+    display: flex;
+    flex-direction: column;
+.heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #000;
+width: 391px;
+height: 146px;
+padding-top:75px;
+}
+
+}
+.paragraph{
+color: #675E5E;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+padding-top:49px;
+}
+.hero-container{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.woman{
+    width: 648px;
+height: 541px;
+border-radius: 30px;
+padding-top: 75px;
+padding-right: 51px;
+}

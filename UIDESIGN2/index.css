@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.main-container{
+    display: flex;
+    /*flex-direction: column;*/
+}
+.payment-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.line-container{
+    display: flex;
+    column-gap: 0px;
+   
+}
+.line-button1{
+    display: flex;
+    align-items: flex-start;
+    
+   
+    margin-top: 50px;
+   
+    margin-left: 50px;
+    margin-right: 0px;
+    
+}
+.button-text1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    row-gap: 0px;
+
+}
+.round-button{
+    width:30px;
+    height: 30px;
+    border-radius: 20px;
+    border:1px solid grey;
+    margin-left: 50px;
+    margin-right: 0px;
+    
+}
+.para1{
+    margin-left: 50px;
+    
+
+}
+.horizontal{
+    width:130px;
+    margin-top:10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+.button-text2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+
+}
+.round-button2{
+    width:30px;
+    height: 30px;
+    border-radius: 20px;
+    border:1px solid grey;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.para2{
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 0px;
+}
+.round-button3{
+    width:30px;
+    height: 30px;
+    border-radius: 20px;
+    border:1px solid grey;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.para3{
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 0px;
+}
+.heading{
+    font-size: 24px;
+    color: black;
+    margin-left: 90px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+   
+}
+.payment-items{
+    display: flex;
+    list-style-type: circle;
+    margin-top: 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-item{
+    padding-top: 0px;
+    margin-left: 80px;
+    
+}
+.image{
+    width:40px;
+    height:40px;
+    margin-top: 10px;
+    margin-left: 2px;
+    background-image: none;
+
+
+}
+.card-name{
+    font-size: 20px;
+    color: darkgray;
+    margin-left: 90px;
+    margin-bottom: 0px;
+}
+.name-line{
+    width:500px;
+    margin-left: 90px;
+}
+.card-number{
+    font-size: 20px;
+    color: darkgray;
+    margin-left: 90px;
+    margin-bottom: 0px;
+
+}
+.cvv-container{
+    display: flex;
+    align-items: center;
+    
+
+}
+.para-line{
+    display: flex;
+    flex-direction: column;
+}
+.expiration{
+    font-size: 20px;
+    color: darkgray;
+    margin-left: 90px;
+    margin-bottom: 0px;
+}
+.cvv{
+    font-size: 20px;
+    color: darkgray;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+.expiration-line{
+    width:300px;
+    margin-left: 90px;
+
+}
+.cvv-line{
+    width: 200px;
+    margin-left: 90px;
+
+}
+.des{
+    font-size: 12px;
+    color: darkgray;
+    margin-left: 90px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.button-1{
+    width:120px;
+    height: 30px;
+    margin-left: 90px;
+}
+.button-2{
+    width:300px;
+    height:30px;
+    color: white;
+    margin-left: 50px;
+    background-color: #6A0DAD;
+
+}
+/*.image-container{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/a50859132910207.Y3JvcCwxMjcwLDk5NCwxMjc0LDI3OQ.jpg');
+    margin-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+ 
+}*/
+.side-image{
+    height:100vh;
+    margin-right: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    object-fit: cover;
+
+}
